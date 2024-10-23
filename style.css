@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Miroles;
+    src: url(MIROLES.ttf);
+  }
+@font-face {
+    font-family: Cleudia;
+    src: url(Cleudia.otf);
+}
+@font-face {
+    font-family: Mangiola;
+    src: url(Mangiola-Regular.ttf);
+}
+body{
+    margin:0px;
+}
+main{
+     margin-left: 20px;
+     margin-right: 20px;
+     margin: 150px;
+     margin-top: 20px;
+}
+h1{
+   text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:#9ED4E2;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: Miroles;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background-color:#C7E5EC;
+}
+.navbar li{
+  float: left;
+}
+.title{
+    font-family: Miroles;
+}
+p{
+    font-family: Cleudia;
+}
